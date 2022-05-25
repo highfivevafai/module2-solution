@@ -1,7 +1,4 @@
-/*** Desktop ****/
-@media only screen and (min-width: 992px) {
- .col-lg-4 {float: left; width:33%; border: 1px solid green;}
-}
+.col-lg-4 {float: left; width:33%; border: 1px solid green;}
 
 .menu {
  text-align: center;
