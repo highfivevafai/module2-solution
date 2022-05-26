@@ -6,13 +6,14 @@
 }
 
 /*** Tablet ****/
-@media only screen and (min-width: 768px) and (max-width: 991px;) {
- .col-lg-6 {float: left; width: 50%; border: 1px solid green;}
+@media (min-width: 768px) and (max-width: 991px;) {
+ .col-md-6 {float: left; width: 50%; border: 1px solid green;}
+ .col-md-12 {float: left; width: 100%; border: 1px solid green;}
 }
 
-/*** Tablet ****/
+/*** Mobile ****/
 @media only screen and (max-width: 767px;) {
- .col-lg-12 {float: left; width: 100%; border: 1px solid green;}
+ .col-sm-12 {float: left; width: 100%; border: 1px solid green;}
 }
 
 .menu {
