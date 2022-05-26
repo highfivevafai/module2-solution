@@ -1,12 +1,12 @@
 * {box-sizing: border-box;}
 
 /*** Mobile ****/
-@media only screen and (max-width: 767px;) {
+@media only screen and (max-width: 767px) {
  .col-sm-12 {float: left; width: 100%; border: 1px solid green;}
 }
 
 /*** Tablet ****/
-@media only screen and (min-width: 768px) and (max-width: 991px;) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
  .col-md-6 {float: left; width: 50%; border: 1px solid green;}
  .col-md-12 {float: left; width: 100%; border: 1px solid green;}
 }
