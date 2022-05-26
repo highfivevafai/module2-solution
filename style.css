@@ -1,5 +1,7 @@
 * {box-sizing: border-box;}
 
+body {margin:0; padding:0;}
+
 /*** Mobile ****/
 @media only screen and (max-width: 767px) {
  .col-sm-12 {float: left; width: 100%; border: 1px solid green;}
