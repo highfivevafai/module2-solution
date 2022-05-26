@@ -1,8 +1,8 @@
 * {box-sizing: border-box;}
 
-/*** Desktop ****/
-@media only screen and (min-width: 992px) {
- .col-lg-4 {float: left; width:33%; border: 1px solid green;}
+/*** Mobile ****/
+@media only screen and (max-width: 767px;) {
+ .col-sm-12 {float: left; width: 100%; border: 1px solid green;}
 }
 
 /*** Tablet ****/
@@ -11,9 +11,9 @@
  .col-md-12 {float: left; width: 100%; border: 1px solid green;}
 }
 
-/*** Mobile ****/
-@media only screen and (max-width: 767px;) {
- .col-sm-12 {float: left; width: 100%; border: 1px solid green;}
+/*** Desktop ****/
+@media only screen and (min-width: 992px) {
+ .col-lg-4 {float: left; width:33%; border: 1px solid green;}
 }
 
 .menu {
