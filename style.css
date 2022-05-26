@@ -26,12 +26,11 @@ body {margin:0; padding:0;}
 .row {width:100%;}
 
 .container {
- margin:20px;
  position:relative;
 }
 
 .title {
- positione:absolute;
+ position:absolute;
  top: 0;
  right: 0;
 }
