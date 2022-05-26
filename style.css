@@ -30,6 +30,9 @@ body {margin:0; padding:0;}
 }
 
 .title {
+}
+
+.inner {
  position:absolute;
  top: 0;
  right: 0;
