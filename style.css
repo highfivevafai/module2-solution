@@ -2,38 +2,83 @@
 
 body {margin:0; padding:0;}
 
-/*** Mobile ****/
-@media only screen and (max-width: 767px) {
- .col-sm-12 {float: left; width: 100%; border: 1px solid green;}
+h1 {text-align: center; padding: 20px 0px;}
+
+.row {width:100%; padding:10px;}
+
+p {
+  background-color: #999999;
+  border: 2px solid black;
+  min-height: 150px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 40px 10px 5px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+.container {
+  position: relative;
+ }
+
+.title {
+  position: absolute;
 }
 
-/*** Tablet ****/
-@media only screen and (min-width: 768px) and (max-width: 991px) {
- .col-md-6 {float: left; width: 50%; border: 1px solid green;}
- .col-md-12 {float: left; width: 100%; border: 1px solid green;}
-}
+ #h1 {
+  background-color: #D59898;
+  top: 0;
+  right: 0;
+  font-weight: bold;
+  min-height: 35px;
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: .75;
+ }
+
+ #h2 {
+  background-color: #c14543;
+  color:#fff;
+  top: 0;
+  right: 0;
+  font-weight: bold;
+  min-height: 35px;
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: .75;
+ }
+
+ #h3 {
+  background-color: #E5D198;
+  top: 0;
+  right: 0;
+  font-weight: bold;
+  min-height: 35px;
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: .75;
+ }
+
 
 /*** Desktop ****/
 @media only screen and (min-width: 992px) {
- .col-lg-4 {float: left; width:33%; border: 1px solid green;}
-}
+  .col-lg-4 {float: left; width:33.33%;}
+ }
 
-.menu {
- text-align: center;
- padding: 30px 0px;
-}
+/*** Tablet ****/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {float: left; width: 50%;}
+  .col-md-12 {float: left; width: 100%;}
+ }
 
-.row {width:100%;}
-
-.title {
- position:absolute;
- top: 0;
- right: 0;
-}
-
-.inner {
- position:relative;
-}
-
+ /*** Mobile ****/
+@media only screen and (max-width: 767px) {
+  .col-sm-12 {float: left; width: 100%;}
+ }
 
 
